@@ -11,6 +11,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+<br>
+Do not forget to run `node server/app.js` for database.
+
+### `node server/app.js`
+
+Launches Node.JS mongoDB server, where Pokemon data is located
+<br>
+Must need for application to work
 
 ### `npm test`
 
