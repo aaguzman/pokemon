@@ -22,6 +22,78 @@
   color: #61dafb;
 }
 
+.SearchPage {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Header {
+  color: white;
+  background-color: rgb(70, 162, 238);
+  width: 100%;
+}
+
+.Header label {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+
+
+.Search-Input {
+  width: 80%;
+  font-size: 20px;
+  border-radius: 3px;
+  border: white;
+  margin-bottom: 2%;
+
+}
+
+.Pokemon-List {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Pokemon-List h3 {
+  margin: 2px;
+}
+
+.Pokemon-List ul {
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+}
+
+.Pokemon-List li {
+  padding: 2px 8px;
+  border-radius: 2px;
+  margin: 2px;
+  color: white;
+  text-shadow: 0 0 4px #282c34;
+}
+
+
+.PokemonItem {
+  background-color: #e7e7e7;
+  width: 30%;
+  margin: 1% 1%;
+}
+
+@media only screen and (max-width : 750px){
+  .PokemonItem {
+    width: 40%;
+  }
+}
+
+
+@media only screen and (max-width : 500px){
+  .PokemonItem {
+    width: 90%;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,3 +102,71 @@
     transform: rotate(360deg);
   }
 }
+
+
+.water {
+  background-color: #3399FF;
+ }
+ 
+ .grass {
+   background-color: #77CC55;
+ }
+ 
+ .fire {
+   background-color: #FF4422;
+ }
+ 
+ .flying {
+   background-color: #8899FF;
+ }
+ 
+ .normal {
+   background-color: #AAAA99;
+ }
+ 
+ .poison {
+   background-color: #AA5599
+ }
+ 
+ .bug {
+   background-color: #AABB22
+ }
+ 
+ .fighting {
+   background-color: #E3F5FD;
+ }
+ 
+ .psychic {
+   background-color: #FF5599;
+ }
+ 
+ .electric {
+   background-color: #FDCA33;
+ }
+ 
+ .ghost {
+   background-color: #6666BB;
+ }
+ 
+ .fairy {
+   background-color: #EE99EE;
+ }
+ 
+ .rock {
+   background-color: #BBAA66;
+ }
+ 
+ .ground {
+   background-color: #DDBB55;
+ }
+ 
+ .ice {
+  background-color: #66CCFF; 
+ }
+ 
+ .dragon {
+   background-color: #7766EE;
+ }
+ 
+ 
+ 
