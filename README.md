@@ -1,4 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To Use
+Must run both scripts!
+1. `npm start` for React Application
+
+2. `node server/app.js` for MongoDB
+
 
 ## Available Scripts
 
