@@ -1,5 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## To Use
+## To Start
 Must run both scripts!
 1. `npm start` for React Application
 
