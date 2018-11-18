@@ -1,11 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## To Start
 Must run both scripts!
-### 1. `npm install` to install all dependies
+### 1. `npm install` 
+to install all dependies.
 
-### 2. `npm start` for React Application
+### 2. `npm start` 
+To start React Application
 
-### 3. `node server/app.js` for MongoDB
+### 3. `node server/app.js` 
+To start MongoDB
 
 
 ## Available Scripts
