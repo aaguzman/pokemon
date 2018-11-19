@@ -1,4 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To Start
+Must run all three scripts!
+### 1. `npm install` 
+to install all dependies.
+
+### 2. `npm start` 
+To start React Application
+
+### 3. `node server/app.js` 
+To start MongoDB
+
 
 ## Available Scripts
 
@@ -11,6 +22,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+<br>
+Do not forget to run `node server/app.js` for database.
+
+### `node server/app.js`
+
+Launches Node.JS mongoDB server, where Pokemon data is located
+<br>
+Must need for application to work
 
 ### `npm test`
 
